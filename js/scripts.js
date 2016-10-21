@@ -3,10 +3,8 @@ var add = function(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 };
 
-/*var output = function(learn, build, environment, reason, lordOfTheRing) {
-  /*if (add === NaN) {
-    return "Answer all the questions!"
-  } else*/ if (add >= 5 && add < 9) {
+var output = function(learn, build, environment, reason, lordOfTheRing) {
+ if (add >= 5 && add < 9) {
     return ("C#/.NET");
   } else if (add >= 9 && add < 13) {
     return ("JAVA/ANDROID");
