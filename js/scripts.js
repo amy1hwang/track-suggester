@@ -4,7 +4,9 @@ var add = function(number1, number2, number3, number4, number5) {
 };
 
 var output = function(learn, build, environment, reason, lordOfTheRing, result) {
- if (result === 5) {
+ if (isNaN(learn) || isNaN(build) || isNaN(environment) || isNaN(reason) || isNaN(lordOfTheRing)) {
+   alert("Answer all the questions to find out!")
+ } else if (result >= 5 && result < 9) {
     return ("C#/.NET");
   } else if (result >= 9 && result < 13) {
     return ("JAVA/ANDROID");

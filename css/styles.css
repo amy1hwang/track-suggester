@@ -1,3 +1,33 @@
+body {
+  background-color: #E9FAD8;
+}
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size: 50px;
+  color: #2A4E06;
+}
+.form-control{
+  width: 40%;
+}
 .submitted {
+  float: right;
   display: none;
+  border: 3px solid #2A4E06;
+  border-radius: 15px;
+  background-color: #D2F0B4;
+  margin: 20px 0 20px 0;
+  color: #2A4E06;
+}
+
+h2 {
+  text-align: center;
+}
+
+label.q {
+  margin-top: 20px;
+}
+
+.output {
+  color: #A2104B;
+  font-weight: bolder;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -12,129 +13,102 @@
 
       <h1>Which track should you take next?</h1>
 
-      <form id="track">
+      <form id="track" class= "col-xs-6">
         <div class="form-group">
-          <label for="name">Enter your name.</label>
+          <label class="q" for="name">Enter your name.</label>
           <input id="name" class="form-control" type="text">
         </div>
-        <label>Select what you would like to learn. :</label>
+
+        <label class="q">Select what you would like to learn. :</label>
           <div class="radio">
             <label>
               <input type="radio" name="learn" value="1">
               Writing Windows desktop applications / Making games
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="learn" value="2">
               Making Android Apps
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="learn" value="3">
               Building content-heavy websites
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="learn" value="4">
               Doing automation and scripting
             </label>
           </div>
 
-        <label>I would be interested in building something like:</label>
+        <label class="q">I would be interested in building something like:</label>
           <div class="radio">
             <label>
               <input type="radio" name="build" value="1">
               Enterprise and Windowns applications
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="build" value="2">
               Android, Gmail, Minecraft
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="build" value="3">
               Wordpress, Wikipedia, Flickr
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="build" value="4">
               Hulu, Groupon, Slideshare
             </label>
           </div>
 
-        <label>Select an ideal work environment. :</label>
+        <label class="q">Select an ideal work environment. :</label>
           <div class="radio">
             <label>
               <input type="radio" name="environment" value="1">
               A Large Company
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="environment" value="3">
               An Agency
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="environment" value="4">
               A Startup / A Small Company
             </label>
           </div>
 
-        <label>Select the main reason of learning to code. :</label>
+        <label class="q">Select the main reason of learning to code. :</label>
           <div class="radio">
             <label>
               <input type="radio" name="reason" value="1">
               I'm fascinated by how computers work.
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="reason" value="2">
               I want a high paying job.
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="reason" value="3">
               I want a flexible work schedule.
             </label>
           </div>
 
-        <label>Select your favorite Lord of the Ring creature. :</label>
+        <label class="q">Select your favorite Lord of the Ring creature. :</label>
           <div class="radio">
             <label>
               <input type="radio" name="lordofthering" value="1">
               Majestic Elf
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="lordofthering" value="2">
               Peaceful Gandolf
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="lordofthering" value="3">
               Orc is pretty badass.
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="lordofthering" value="4">
               Man, of course!
-            </label>
-          </div>
-          <div class="radio">
+            </label><br>
             <label>
               <input type="radio" name="lordofthering" value="2">
               I don't know anything about Lord of the Ring.
@@ -145,8 +119,8 @@
         <button type="submit" class="btn">Find Out!</button>
       </form>
 
-      <div class="submitted">
-        <h2><span class="yourname"></span>, you should take <span class="output"></span>!</h2>
+      <div class="submitted col-xs-6">
+        <h2><span class="yourname"></span>, you should take<br><span class="output"></span>!</h2>
       </div>
 
     </div>
