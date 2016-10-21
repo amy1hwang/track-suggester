@@ -2,8 +2,9 @@
 var add = function(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 };
+
 var output = function(learn, build, environment, reason, lordOfTheRing, result) {
- if (result >= 5 && result < 9) {
+ if (result === 5) {
     return ("C#/.NET");
   } else if (result >= 9 && result < 13) {
     return ("JAVA/ANDROID");
@@ -24,10 +25,11 @@ $(document).ready(function() {
     var environment = parseInt($("input:radio[name=environment]:checked").val());
     var reason = parseInt($("input:radio[name=reason]:checked").val());
     var lordOfTheRing = parseInt($("input:radio[name=lordofthering]:checked").val());
+    var result = add(learn, build, environment, reason, lordOfTheRing)
     var name = $("input#name").val();
 
     $(".yourname").text(name);
-    $(".output").text(output(learn, build, environment, reason, lordOfTheRing));
+    $(".output").text(output(learn, build, environment, reason, lordOfTheRing, result));
     $(".submitted").fadeIn();
 
  });
