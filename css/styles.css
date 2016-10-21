@@ -8,6 +8,7 @@ h1 {
 }
 .form-control{
   width: 180px;
+  background-color: #D2F0B4;
 }
 label.q {
   margin-top: 20px;
@@ -28,12 +29,16 @@ label.q {
 h2 {
   font-family: 'Bree Serif', serif;
 }
+.yourname {
+    font-weight: bolder;
+}
 .output {
   color: #A2104B;
   font-weight: bolder;
 }
 button {
   background-color: #A6E16A;
+  margin-top: 15px;
 }
 
 
