@@ -10,15 +10,16 @@
   </head>
   <body>
     <div class="container">
-
       <h1>Which track should you take next?</h1>
-
-      <form id="track" class= "col-xs-6">
+      <div class="hmm">
+        <img class="emoji" src="img/hmm.png" alt="thinking face emoji">
+        <p>click the emoji to find out!</p>
+      </div>
+      <form id="track" class="col-xs-6">
         <div class="form-group">
           <label class="q" for="name">Enter your name.</label>
           <input id="name" class="form-control" type="text">
         </div>
-
         <label class="q">Select what you would like to learn. :</label>
           <div class="radio">
             <label>
@@ -38,7 +39,6 @@
               Doing automation and scripting
             </label>
           </div>
-
         <label class="q">I would be interested in building something like:</label>
           <div class="radio">
             <label>
@@ -58,7 +58,6 @@
               Hulu, Groupon, Slideshare
             </label>
           </div>
-
         <label class="q">Select an ideal work environment. :</label>
           <div class="radio">
             <label>
@@ -74,7 +73,6 @@
               A Startup / A Small Company
             </label>
           </div>
-
         <label class="q">Select the main reason of learning to code. :</label>
           <div class="radio">
             <label>
@@ -90,7 +88,6 @@
               I want a flexible work schedule.
             </label>
           </div>
-
         <label class="q">Select your favorite Lord of the Ring creature. :</label>
           <div class="radio">
             <label>
@@ -114,15 +111,12 @@
               I don't know anything about Lord of the Ring.
             </label>
           </div>
-
-
         <button type="submit" class="btn">Find Out!</button>
       </form>
-
       <div class="submitted col-xs-6">
         <h2>Hey<br><span class="yourname"></span>,<br>you should take<br><span class="output"></span>!</h2>
+        <p>To learn more about each track<br>check out <a href="http://www.epicodus.com/blog/what-programming-language-should-i-learn">"What Programming Language Should I Learn?"</a>.</p>
       </div>
-
     </div>
   </body>
 </html>
