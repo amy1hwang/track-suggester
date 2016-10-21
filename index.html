@@ -13,6 +13,10 @@
       <h1>Which track should you take next?</h1>
 
       <form id="track">
+        <div class="form-group">
+          <label for="name">Enter your name.</label>
+          <input id="name" class="form-control" type="text">
+        </div>
         <label>Select what you would like to learn. :</label>
           <div class="radio">
             <label>
@@ -39,7 +43,7 @@
             </label>
           </div>
 
-        <label>I would be interested in building:</label>
+        <label>I would be interested in building something like:</label>
           <div class="radio">
             <label>
               <input type="radio" name="build" value="1">
@@ -142,7 +146,7 @@
       </form>
 
       <div class="submitted">
-        <h2><span id="name"></span>, you should take <span id="output"></span>!</h2>
+        <h2><span class="yourname"></span>, you should take <span class="output"></span>!</h2>
         <p>
 
         </p>

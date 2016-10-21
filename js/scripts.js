@@ -2,22 +2,17 @@
 var add = function(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 };
-
-var output = function(learn, build, environment, reason, lordOfTheRing) {
- if (add >= 5 && add < 9) {
+var output = function(learn, build, environment, reason, lordOfTheRing, result) {
+ if (result >= 5 && result < 9) {
     return ("C#/.NET");
-  } else if (add >= 9 && add < 13) {
+  } else if (result >= 9 && result < 13) {
     return ("JAVA/ANDROID");
-  } else if (add >= 13 && add < 17) {
+  } else if (result >= 13 && result < 17) {
     return ("PHP/DRUPAL");
-  } else if (add >= 17 && add <= 20 ) {
+  } else if (result >= 17 && result <= 20 ) {
     return ("RUBY/RAILS");
   };
 };
-
-//var name = prompt("Enter your name.")
-
-
 
 $(document).ready(function() {
 
@@ -29,9 +24,10 @@ $(document).ready(function() {
     var environment = parseInt($("input:radio[name=environment]:checked").val());
     var reason = parseInt($("input:radio[name=reason]:checked").val());
     var lordOfTheRing = parseInt($("input:radio[name=lordofthering]:checked").val());
+    var name = $("input#name").val();
 
-    //$(".name").text(name);
-    $("#output").text(output(learn, build, environment, reason, lordOfTheRing));
+    $(".yourname").text(name);
+    $(".output").text(output(learn, build, environment, reason, lordOfTheRing));
     $(".submitted").fadeIn();
 
  });
