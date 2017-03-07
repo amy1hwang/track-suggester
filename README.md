@@ -10,7 +10,7 @@ This webpage is an aid for users who is deciding which language track they shoul
 * Then open the webpage via a browser of your choice.
 
 # link to site on GitHub Pages
-https://amy1hwang.github.io/tracksuggester
+https://amy1hwang.github.io/track-suggester
 
 # copyright and license information
 Copyright (c) 2016 Amy Hwang. This software is licensed under the Github license.
