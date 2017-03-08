@@ -3,6 +3,7 @@
 
 # description of program
 This webpage is an aid for users who is deciding which language track they should take after level one.
+Jquery was used to take user inputs and show outputs accordingly.
 
 # program setup instructions
 * Clone this repository.
